@@ -61,5 +61,13 @@ public class Main {
         int rezultats = x + y;
         System.out.println(rezultats);
 
+
+        String zivsSuga ="Lasis";
+        int zivGarums = 56;
+        double zivsSvars = 10.5;
+        boolean sarkanasZaunasSvaiga = true;
+        boolean dulkainasAcisVeca = true;
+        char dzimumsViriesu = 'V';
+        System.out.println("Lasis: " + zivGarums + "\nzivsSvars:");
     }
 }

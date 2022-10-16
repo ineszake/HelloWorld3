@@ -9,7 +9,9 @@ public class FirstClass {
         String oficialaValoda ="Taju valoda";
         boolean irESDalibvalsts= false;
         char valuta='฿';
-        System.out.println(valsts+iedzivotajuSkaits +galvasPilseta+platiba+oficialaValoda+"ir ES Dalibvalsts:"+irESDalibvalsts+valuta);
+        System.out.println(valsts+"\n Taizemes iedzīvotāju skais:" +iedzivotajuSkaits +"\n Taizemes galvaspilsēta ir" +
+                galvasPilseta+"\n Taizemes platība ir" +platiba+"\n Taizemes officiālā valoda ir" +oficialaValoda+
+                "ir ES Dalibvalsts:"+irESDalibvalsts+"\n Taizemes valūta ir" +valuta);
 
       long taizemesIkpDolaros= 1475000000000L;
       byte dziniKoeficentsTaizeme= 42;
