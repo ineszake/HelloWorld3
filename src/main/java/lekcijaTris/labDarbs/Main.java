@@ -3,16 +3,14 @@ package lekcijaTris.labDarbs;
 import java.util.Scanner;
 
 public class Main {
+    Scanner ievade = new Scanner(System.in);
+    int number = ievade.nextInt();
     public static void main(String[] args) {
-        System.out.println(" Sākas programma");
-        printCard2("Inese", "Zake", "Aluksne", 41);
-        printCard();
-        printNewLine();
-        printCard();
-        System.out.println("Beidzas programma");
-        printNewLine();
-        int laukums = calculateArea(3, 10);
-        System.out.println("taisnstūra laukums ir:" + laukums);
+
+
+
+
+
 
 
         int[] montlyCost = {100, 43, 56, 67, 55, 150};
@@ -70,16 +68,9 @@ public class Main {
         {
             System.out.println("k ir" + k);
         }
-        Scanner ievade = new Scanner(System.in);
-        int number = ievade.nextInt();
-        int summa = 0;
-        while (number > 0) ;
-        {
-            summa = summa + number;
-            System.out.println("Ievadi skaitli....");
-            number = ievade.nextInt();
-        }
-        System.out.println("summa ir: " + summa);
+
+
+
 
 
         String[] kartis = {"Pīķa dūzis", " Ercena kalps", " Kreiča dāma"};
@@ -95,72 +86,26 @@ public class Main {
             q++;
         } while (q < 10);
 
-        String parole = "SuperSecretPaswords123";
-        String ievaditaParole;
-        do {
-            System.out.println("Ievadi paroli");
-            ievaditaParole = scanner.next();
-            System.out.println(" Pārbaudām paroli");
-        }
-        while (!ievaditaParole.equals(parole));
 
-        System.out.println("Pareiza parole");
 
         long[] telefonNumuri = {222222, 3333333, 44444444, 5555555, 543543543};
         for (long numurs : telefonNumuri) {
             System.out.println(numurs);
         }
 
-        int count = 0;
-        for (int h = 1; h <= 50; h++) ;
-        if (h % 3 == 0 || h % 5 == 0) ;
-        {
-            System.out.println("Šie numuri neder:" + h);
-        } else{
-            count++;
-        }
-        System.out.println("Der" + count + "māju numuri");
-
-        char vārds = ("I", "e", "s", "N", "e");
-        for (charmansVards:
-             vārds) {
-            System.out.println();
-        }
 
 
-        {
-            public static int calculateArea ( int platums, int garums){
-            return platums * garums;
-        }
-            public static void printNewLine () {
-            System.out.println("\n");
 
-        }
-            public static void printCard () {
-            System.out.println("@@@@@@@@@@");
-            System.out.println("Inese Zake");
-            System.out.println("Rīga");
-            System.out.println("Vecums ir: + 41");
-            System.out.println("$$$$$$$$$$");
-
-        }
-            public static double average ( double x, double y, double z){
-            return x + y + z;
-        }
-            public static void printCard2 (String Vards, String Uzvards, String pilsēta,int vecums){
-            System.out.println("@@@@@@@@@@");
-            System.out.println(Vards + " " + Uzvards);
-            System.out.println(pilsēta);
-            System.out.println("Vecums:" + vecums);
-            System.out.println("$$$$$$$$$$");
-
-        }
 
         }
 
 
-    }
-}
+
+        }
+
+
+
+
 
 
 
