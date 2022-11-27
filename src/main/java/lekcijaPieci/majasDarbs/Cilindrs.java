@@ -6,8 +6,8 @@ public class Cilindrs {
     private double  augstums;
     private double radiuss;
 
-    double PI= 3.14;
-    double radiuss2= radiuss*radiuss;
+   public double PI= 3.14;
+
 
 
     public double getRadiuss() {
@@ -30,12 +30,12 @@ public class Cilindrs {
         this.augstums = augstums;
     }
     public double aprekinatTilpumu() {
-        double tilpums = PI* radiuss2*augstums;
+        double tilpums = (PI* radiuss*radiuss)*augstums;
         return tilpums;
     }
 
     public double aprekinatTilpumu1() {
-        return PI * radiuss2 * augstums;
+        return (PI * radiuss*radiuss )* augstums;
     }
     public double aprekinatVirsmu() {
             return PI*radiuss*radiuss;
