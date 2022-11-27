@@ -17,7 +17,20 @@ public class CheckoutPage {
 
     private By firstNameInputField= By.id("first-name");
 
+    private By lastNameInputField= By.id("last-name");
+
+    private By zipCodeInputField= By.id("postal-code");
+
+    public void inputZipCode (String zipCode){
+        parluks.findElement(zipCodeInputField).sendKeys(zipCode);
+    }
+    public void inputLastName (String lastName){
+        parluks.findElement(lastNameInputField).sendKeys(lastName);
+    }
+
+
     public void inputFirstName(String firstname){
+
         parluks.findElement(firstNameInputField).sendKeys(firstname);
     }
 

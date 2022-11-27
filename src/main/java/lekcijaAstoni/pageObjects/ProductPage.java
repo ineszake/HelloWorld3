@@ -13,6 +13,13 @@ public class ProductPage extends BasePage {
     private By pageTitle=By.cssSelector("span.title");
     private By cartButton = By.id("shoping_cart_container");
 
+    private By buttonAddToCart= By.cssSelector("inventory_container");
+
+    public void clickButtonAddToCart(){
+        parluks.findElement(buttonAddToCart).click();
+    }
+
+
     public WebElement getPageTittle(){
         return parluks.findElement(pageTitle);
     }
